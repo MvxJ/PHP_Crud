@@ -21,3 +21,8 @@ PHP BASIC CRUD APP
 3. Zaimportuj bazę danych z pliku `crud_maksymilian_jachymczak` na serwer
 4. Pobierz folder Crud i wstaw do folderu `xampp/htdocs/`
 5. W przeglądarce wpisz `127.0.0.1/Crud/`
+
+### INSTRUKCJA :
+![image1](.github/images/1.PNG)
+![image2](.github/images/2.PNG)  \
+![image3](.github/images/3.PNG)
