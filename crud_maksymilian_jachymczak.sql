@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Czas generowania: 12 Lut 2021, 19:58
+-- Czas generowania: 12 Lut 2021, 21:20
 -- Wersja serwera: 10.4.13-MariaDB
 -- Wersja PHP: 7.4.7
 
@@ -40,31 +40,31 @@ CREATE TABLE `customers` (
 --
 
 INSERT INTO `customers` (`id`, `name`, `surname`, `city`, `fm`) VALUES
-(1, 'Mikołaj', 'Kowalski', '', ''),
-(2, 'Natalia', 'Stępień', '', ''),
-(3, 'Mirosław', 'Krawczyk', '', ''),
-(4, 'Aleks', 'Szymczak', '', ''),
-(5, 'Anastazy', 'Kwiatkowski', '', ''),
-(6, 'Dorian', 'Zieliński', '', ''),
-(7, 'Cezary', 'Cieślak', '', ''),
-(8, 'Martin', 'Błaszczyk', '', ''),
-(9, 'Karol', 'Sikorska', '', ''),
-(10, 'Aleks', 'Baran', '', ''),
-(11, 'Norbert', 'Borkowski', '', ''),
-(12, 'Alek', 'Krupa', '', ''),
-(13, 'Miłosz', 'Walczak', '', ''),
-(14, 'Emanuel', 'Witkowski', '', ''),
-(15, 'Kajetan', 'Stępień', '', ''),
-(16, 'Zuza', 'Adamska', '', ''),
-(17, 'Jowita', 'Nowak', '', ''),
-(18, 'Wiktoria', 'Kozłowska', '', ''),
-(19, 'Julianna', 'Jaworska', '', ''),
-(20, 'Adrianna', 'Borkowska', '', ''),
-(21, 'Balbina ', 'Cieślak', '', ''),
-(22, 'Elżbieta', 'Baranowska', '', ''),
-(23, 'Lidia', 'Borkowska', '', ''),
-(24, 'Marta', 'Zielińska', '', ''),
-(25, 'Antonina', 'Ziółkowska', '', '');
+(1, 'MIKOŁAJ', 'KOWALSKI', 'Gdańsk', 'm'),
+(2, 'NATALIA', 'STĘPIEŃ', 'Wrocław', 'k'),
+(3, 'MIROSłAW', 'KRAWCZYK', 'Wrocław', 'm'),
+(4, 'ALEKS', 'SZYMCZAK', 'Wrocław', 'm'),
+(5, 'ANASTAZY', 'KWIATKOWSKI', 'Gdańsk', 'm'),
+(6, 'DORIAN', 'ZIELIŃSKI', 'Wrocław', 'm'),
+(7, 'CEZARY', 'CIEŃLAK', 'Kraków', 'm'),
+(8, 'MARTIN', 'BŁASZCZYK', 'Zakopane', 'm'),
+(9, 'KAROL', 'SIKORSKA', 'Zakopane', 'm'),
+(10, 'ALEKS', 'BARAN', 'Wrocław', 'm'),
+(11, 'NORBERT', 'BORKOWSKI', 'Warszawa', 'm'),
+(12, 'ALEK', 'KRUPA', 'Warszawa', 'm'),
+(13, 'MIłOSZ', 'WALCZAK', 'Wrocław', 'm'),
+(14, 'EMANUEL', 'WITKOWSKI', 'Kraków', 'm'),
+(15, 'KAJETAN', 'STĘPIEŃ', 'Zakopane', 'm'),
+(16, 'ZUZA', 'ADAMSKA', 'Gdańsk', 'k'),
+(17, 'JOWITA', 'NOWAK', 'Kraków', 'k'),
+(18, 'WIKTORIA', 'KOZŁOWSKA', 'Warszawa', 'k'),
+(19, 'JULIANNA', 'JAWORSKA', 'Wrocław', 'k'),
+(20, 'ADRIANNA', 'BORKOWSKA', 'Kraków', 'k'),
+(21, 'BALBINA ', 'CIEŃLAK', 'Wrocław', 'k'),
+(22, 'ELżBIETA', 'BARANOWSKA', 'Warszawa', 'k'),
+(23, 'LIDIA', 'BORKOWSKA', 'Kraków', 'k'),
+(24, 'MARTA', 'ZIELIŃSKA', 'Zakopane', 'k'),
+(25, 'ANTONINA', 'ZIÓŁKOWSKA', 'Kraków', 'k');
 
 --
 -- Indeksy dla zrzutów tabel
@@ -84,7 +84,7 @@ ALTER TABLE `customers`
 -- AUTO_INCREMENT dla tabeli `customers`
 --
 ALTER TABLE `customers`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
