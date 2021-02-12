@@ -25,7 +25,6 @@
 			<table class="table">
 				<thead>
 					<tr>
-						<th>Id</th>
 						<th>Imie</th>
 						<th>Nazwisko</th>
 						<th>Miasto</th>
@@ -52,7 +51,6 @@
 								while($row=mysqli_fetch_array($execute)){
 					?>
 					<tr>
-						<td><?php echo $row['id'] ?></td>
 						<td><?php echo $row['name'] ?></td>
 						<td><?php echo $row['surname'] ?></td>
 						<td><?php echo $row['city'] ?></td>
