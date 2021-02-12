@@ -20,7 +20,7 @@ PHP BASIC CRUD APP
 1. Uruchom Xampp
 2. Włącz serwer Apache i MySQL
 3. Stwórz bazę danych 'crud_maksymilian_jachymczak'
-4. Zaimportuj tabelę z danymi z pliku `crud_maksymilian_jachymczak` na serwer
+4. Zaimportuj tabelę z danymi z pliku `crud_maksymilian_jachymczak.sql` na serwer
 5. Pobierz folder Crud i wstaw do folderu `xampp/htdocs/`
 6. W przeglądarce wpisz `127.0.0.1/Crud/`
 
