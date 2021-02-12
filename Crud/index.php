@@ -8,7 +8,7 @@
 ?>
 <hmtl>
 	<head>
-		<title>Użytkownicy - lista</title>
+		<title>Klienci - lista</title>
 		<meta charset="utf-8">
 		<meta name="author" content="Maksymilian Jachymczak">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -21,7 +21,7 @@
 	</head>
 	<body>
 		<div class="container">
-			<h2>Użytkownicy <a href="create.php" class="button"><input type="button" value="Dodaj użytkownika" class="btn btn-primary"></a></h2>
+			<h2>Klienci <a href="create.php" class="button"><input type="button" value="Dodaj klienta" class="btn btn-primary"></a></h2>
 			<table class="table">
 				<thead>
 					<tr>
