@@ -1,8 +1,10 @@
 <?php
 	include "config.php";
 	if (isset($_POST['submit'])){
-		$surname = @$_POST['surname'] ; 
-		$name =  @$_POST['name'] ;
+		$s = @$_POST['surname'] ; 
+		$surname = strtoupper($s);
+		$n =  @$_POST['name'] ;
+		$name = strtoupper($n);
 		$city = @$_POST['city'];
 		$fm = @$_POST['fm'];
 		$sql = "INSERT INTO customers (name,surname,city,fm) VALUES ('".$name."','".$surname."','".$city."','".$fm."')";
@@ -30,13 +32,13 @@
 			<fieldset>
 				<legend> Dodaj Użytkownika </legend>
 				Imie : <br>
-				<input type="text" name="name" id="name" placeholder="Imie">
+				<input type="text" name="name" id="name" placeholder="Imie" required>
 				<br>
 				Nazwisko : <br>
-				<input type="text" name="surname" id="surname" placeholder="Nazwisko">
+				<input type="text" name="surname" id="surname" placeholder="Nazwisko"required>
 				<br>
 				Miasto : <br>
-				<select name="city" id="city">
+				<select name="city" id="city" required>
 					<option value="Kraków">Kraków</option>
 					<option value="Gdańsk">Gdańsk</option>
 					<option value="Warszawa">Warszawa</option>
@@ -49,7 +51,7 @@
 				<input type="radio" name="fm" value="m">&nbsp;Mężczyzna
 				<br>
 				<br>
-				<a href="index.php"><input type="button" value="Cofnij" class="btn btn-primary"></a>
+				<a href="index.php"><input type="button" value="Wróć" class="btn btn-primary"></a>
 				<input type="submit" value="Zatwierdź" name="submit" class="btn btn-success">
 				<input type="reset" value="Kasuj" class="btn btn-danger">
 			</fieldset>
