@@ -23,6 +23,7 @@ PHP BASIC CRUD APP
 5. W przeglądarce wpisz `127.0.0.1/Crud/`
 
 ### INSTRUKCJA :
-![image1](.github/images/1.PNG)
+- Na stronie głównej `index.php` możemy skorzystać z wszelkich funkcjonalności, usunąć klienta klikając 'Usuń', Dodać klienta klikając 'Dodaj klienta' oraz modyfikować dane klikając 'Aktualizuj'.
+![image1](.github/images/1.PNG)  \
 ![image2](.github/images/2.PNG)  \
 ![image3](.github/images/3.PNG)
