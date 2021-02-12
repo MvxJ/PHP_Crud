@@ -7,8 +7,9 @@
 		$city = @$_POST['city'];
 		$fm = @$_POST['fm'];
 		$id=$_POST['id'];
-		
-		$sql = "UPDATE customers SET id='".$id."',name='".$name."',surname='".$surname."', city='".$city."',fm='".$fm."' WHERE id=".$_GET['id'];
+		$n = strtoupper($name);
+		$s= strtoupper($surname);
+		$sql = "UPDATE customers SET id='".$id."',name='".$n."',surname='".$s."', city='".$city."',fm='".$fm."' WHERE id=".$_GET['id'];
 		$execute = mysqli_query($connection,$sql);
 		if($execute == TRUE){
 			echo "Zmodyfikowano rekord";
@@ -63,7 +64,7 @@
 				<input type="radio" name="fm" value="m" <?php if($fm == "m"){ echo "checked";}?>>&nbsp;Mężczyzna
 				<br>
 				<br>
-				<a href="index.php"><input type="button" value="Cofnij" class="btn btn-primary"></a>
+				<a href="index.php"><input type="button" value="Wróć" class="btn btn-primary"></a>
 				<input type="submit" value="Zatwierdź" name="update" class="btn btn-success">
 			</fieldset>
 		</form>
