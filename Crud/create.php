@@ -21,7 +21,7 @@
 ?>
 <!DOCTYPE html>
 	<head>
-		<title>Dodaj użytownika</title>
+		<title>Dodaj klienta</title>
 		<meta charset="utf-8">
 		<meta name="author" content="Maksymilian Jachymczak">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -30,7 +30,7 @@
 		<div class="container">
 		<form method="POST" action="">
 			<fieldset>
-				<legend> Dodaj Użytkownika </legend>
+				<legend> Dodaj klienta </legend>
 				Imie : <br>
 				<input type="text" name="name" id="name" placeholder="Imie" required>
 				<br>
