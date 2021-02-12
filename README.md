@@ -7,6 +7,7 @@ PHP BASIC CRUD APP
 - może usunąć klienta
 - może modyfikować dane klienta
 - może dodać nowego klienta do bazy
+- na stronie może wyświetlać sie max 10 elementów
 
 ----
 ### TECHNOLOGIE :
