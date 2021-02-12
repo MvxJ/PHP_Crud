@@ -1,5 +1,5 @@
 # PHP_Crud
-Autor : Maksymilian Jachymczak
+Autor : Maksymilian Jachymczak/n
 PHP BASIC CRUD APP
 
 ZAŁOŻENIA :
